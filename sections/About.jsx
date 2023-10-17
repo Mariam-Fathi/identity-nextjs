@@ -21,7 +21,7 @@ const About = () => (
               className="flex items-center gap-2"
             >
               <AiOutlineDoubleRight className="text-lime-500 w-3 h-3" />
-              <p className="text-slate-200 max-sm:text-base text-lg tracking-widest max-sm:tracking-wide font-semibold font-palanquin hover:text-lime-500"> 
+              <p className="text-slate-200 max-sm:text-sm text-base tracking-widest max-sm:tracking-wide font-semibold font-palanquin hover:text-lime-500"> 
                 {feature}
               </p>
             </div>
