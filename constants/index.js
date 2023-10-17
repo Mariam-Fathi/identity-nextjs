@@ -7,7 +7,6 @@ export const brandName= 'identity';
 
 {/* Navbar Section */}
 export const navLinks= [
-  {'href':'#hero' , 'label':'HERO' },
   {'href':'#about' , 'label':'ABOUT' },
   {'href':'#services' , 'label':'SERVICES' },
   {'href':'#upcoming' , 'label':'UPCOMING' },
