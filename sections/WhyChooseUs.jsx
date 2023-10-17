@@ -26,19 +26,21 @@ const WhyChooseUs = () => (
 
         {/* Features */}
         <div className="flex flex-col items-start gap-4 mb-10 mt-4 max-w-full">
-          {whyChooseUsInfo.features.map((feature) => (
-            <div 
-              key={feature.label}
-              className="flex items-center gap-4"
-            >
-              {feature.icon}
-              <p 
-                className=" text-slate-200 max-sm:text-base text-lg tracking-widest max-sm:tracking-wide font-semibold font-palanquin hover:text-lime-500"
-              > 
-                {feature.label}
-              </p>
-            </div>
-          ))}
+          <div className="grid grid-cols-2 gap-6">
+            {whyChooseUsInfo.features.map((feature) => (
+              <div 
+                key={feature.label}
+                className="flex items-center gap-4"
+              >
+                {feature.icon}
+                <p 
+                  className=" text-slate-200 max-sm:text-sm text-base tracking-widest max-sm:tracking-wide font-semibold font-palanquin hover:text-lime-500"
+                > 
+                  {feature.label}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
