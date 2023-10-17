@@ -5,7 +5,7 @@ import { SectionHeader } from "../components";
 
 const WhyChooseUs = () => (
   <section className={`sm:px-16 px-8 relative z-10 mt-16`}>
-    <div className={`min-h-screen relative flex justify-center max-lg:flex-col gap-20`}>
+    <div className={`min-h-screen relative flex justify-center max-lg:flex-col gap-20 py-12 md:py-20`}>
       
       {/* Image */}
       <div className={`relative w-1/2 max-lg:w-[90%] h-screen max-lg:h-[400px] flex-1`}>
