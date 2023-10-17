@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import {Logo, navLinks } from "../constants"
-import{ FiMenu, AiOutlineClose } from '../public/icons'
+import {brandName, navLinks } from "../constants"
+import{BiMessage, FiMenu, AiOutlineClose } from '../public/icons'
 
 const Navbar = () => {
     const [toggel, setToggel]= useState(false)
@@ -14,9 +14,9 @@ const Navbar = () => {
           href="/" 
           className="relative"
         >
-          {Logo.icon}
+          <BiMessage className="w-[50%] h-[55px] max-sm:h-[43px] text-lime-500 absolute opacity-90"/>
           <span className="text-white text-[32px] max-sm:text-[24px] font-BlackOpsOne font-medium relative left-[24px] max-sm:left-[18px]">
-            {Logo.brandName}
+            {brandName}
           </span>
         </a>
 
