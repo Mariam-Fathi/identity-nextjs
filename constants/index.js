@@ -1,6 +1,12 @@
 import { heroCardIconStyle, whyChooseUsIconStyle } from '../styles';
-import {IoPeopleOutline, PiBuildingsThin, GiGlassCelebration, AiOutlineTeam,HiMiniBuildingStorefront,GiThink,FaPeopleRobbery, servicesSvg } from '../public/icons';
+import {BiMessage,IoPeopleOutline, PiBuildingsThin, GiGlassCelebration, AiOutlineTeam,HiMiniBuildingStorefront,GiThink,FaPeopleRobbery, servicesSvg } from '../public/icons';
 import { heroImg,aboutImg,whyChooseUsImg,PortfolioImage01,PortfolioImage02,PortfolioImage03,PortfolioImage04,PortfolioImage05,UpcomingImage01,UpcomingImage02,UpcomingImage03,UpcomingImage04,UpcomingImage05,TestimonialImage01,TestimonialImage02,TestimonialImage03 } from '../public/images';
+
+{/* Logo */}
+export const Logo= {
+  brandName:'identity',
+  icon:  <BiMessage className="w-[50%] h-[55px] max-sm:h-[43px] text-lime-500 absolute opacity-90"/>,
+};
 
 
 {/* Navbar Section */}
@@ -241,6 +247,8 @@ export const testimonialsInfo= {
 };
 
 {/* Footer */}
+export const footerSubText= 'Aenean pharetra erat in nisl blandit. Nullam gravida enim curae elementum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sapiente non animi. ';
+
 export const footerLinks = [
   {
       title: "Services",
