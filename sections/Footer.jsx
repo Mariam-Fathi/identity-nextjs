@@ -1,4 +1,4 @@
-import { footerLinks, socialMedia } from "../constants";
+import {footerSubText, footerLinks, socialMedia, Logo } from "../constants";
 import { BiMessage } from 'react-icons/bi';
 
 const Footer = () => {
@@ -10,14 +10,13 @@ const Footer = () => {
             href="/" 
             className="relative"
           >
-            <BiMessage className="w-[50%] h-[55px] max-sm:h-[43px] text-lime-500 absolute opacity-90"/>
+            {Logo.icon}
             <span className="text-white text-[32px] max-sm:text-[24px] font-BlackOpsOne font-medium relative left-[24px] max-sm:left-[18px]">
-              identity
+              {Logo.brandName}
             </span>
           </a>
           <p className='mt-6 sm:max-w-sm text-slate-300 max-sm:text-base text-lg font-palanquin'>
-           Aenean pharetra erat in nisl blandit. Nullam gravida enim curae elementum. 
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sapiente non animi. 
+            {footerSubText}
           </p>
           <div className='flex items-center gap-5 mt-8'>
             {socialMedia.map((icon) => (
